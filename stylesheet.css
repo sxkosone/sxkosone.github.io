@@ -69,7 +69,7 @@ nav a:hover {
   top: 0;
   width: 100%;
   z-index: 2;
-  background-color: #026670; /old one *#42f48f*/
+  background-color: #026670; /*old one *#42f48f*/
 }
 
 .collapse {
@@ -323,7 +323,7 @@ a {
   background-size: cover;
   background-attachment: fixed;
 }
-}
+
 
 .bg-blog {
   background-image: url("https://nationalgriefawarenessday.com/wp-content/uploads/2018/01/crumpled-paper-texture-crumpled-paper-texture-delightful-design-ideas1.jpg");
