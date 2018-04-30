@@ -29,21 +29,25 @@ h1, h2 {
   font-family: "Merriweather", serif;
 }
 
+/*Text highlights*/
 span {
   background-color: yellow;
 }
-
+/*Link styling*/
 p a {
   text-decoration-color: black;
   background-color: #42f48f;
   color: black;
   text-decoration: underline;
 }
+
+/*List styling*/
  ul {
   list-style-type: none;
  }
 
- .all {
+/*overall wrapper to move content down menu height*/
+.all {
    margin-top: 50px;
  }
 
@@ -75,6 +79,10 @@ nav a:hover {
 .navbar-brand {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(https://cdn0.iconfinder.com/data/icons/cosmo-food-2/40/burger_2-512.png);
 }
 
 /*Make elements responsive*/
