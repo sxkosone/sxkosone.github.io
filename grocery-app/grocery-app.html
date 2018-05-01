@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    The Grocery App
+</title>
+<link href="grocery-app.css" type="text/css" rel="stylesheet">
+<!-- Importing some fonts of my liking from Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway|Lato" rel="stylesheet">
+<!-- Making sure my page doesn't shrink to tiny with mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<div class="container">
+  <div id="app">
+    
+    <h1>Groceries</h1>    
+    <!-- Display array of foods as list -->
+    <ul>
+        <li v-for="food in missingFoods">
+            <input type="checkbox" @click="check(food)">
+            <label for="checkbox">{{ food.description }}</label>
+        </li>
+        
+      <li class="done" v-for="food in foundFoods" v-text="food.description"></li>
+      
+    </ul>
+
+    <!-- Text input to add food items to list of foods -->
+    <input type="text" id="input" v-model="newFood" @keyup.enter="addFood">
+    <!-- Add an event listener to make buttons do your methods addFood and clearList on click-->
+    <button @click="addFood">Add</button>
+    <p>You have {{ missingFoods.length }} things left to buy. Add items by typing them to the box above.</p>
+
+    <button class="clear" @click="clearList">Clear my list</button>
+
+
+    <p class="credit">The Grocery App is program built by Susanna Kosonen, using JavaScript and <a href="https://vuejs.org/" alt="Vuejs">Vuejs</a>. You can check out my <a href="#">source code on Github.</a></p>
+   
+</div>
+
+  <!-- Vue development version, includes helpful console warnings -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <!-- Link to my JavaScript and Vue code -->
+  <script type="text/javascript" src="grocery-app.js"></script>
+
+</body>
+</html>
