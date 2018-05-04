@@ -102,9 +102,6 @@ nav a:hover {
     padding: 10px;
   }
 
-  .bg-index a img {
-    display: none;
-  }
   .btn-group {
     display: inline-grid;
   }
@@ -173,17 +170,8 @@ nav a:hover {
 }
 
 .header-text-container {
-  position: absolute;
-  /*background-color: rgba(0,0,10,0.4);*/
-  /*border: 1px solid white;*/
+  margin: auto;
   padding: 20px;
-  top: 250px;
-  left: 20%;
-  right: 20%;
-
-}
-.bg-index {
-  text-align: center;
 }
 
 .bg-index h1 {
@@ -193,7 +181,6 @@ nav a:hover {
   color: white;
   text-align: center;
   font-weight: 900;
-
 }
 
 .bg-about h1 {
@@ -213,6 +200,7 @@ nav a:hover {
   right: 50%;
   text-decoration: none;
   background-color: none;
+  display: none;
 }
 
 .bg-index a img:hover {
@@ -303,25 +291,25 @@ a {
 .bg-about {
     /* The image used */
     background-image: url("images/frozen-forest.jpg");
-    /* Half height */
     height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
 
 }
 
 .bg-contact {
   background-image: url("https://nationalgriefawarenessday.com/wp-content/uploads/2018/01/crumpled-paper-texture-crumpled-paper-texture-delightful-design-ideas1.jpg");
-
   height: 100%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
 }
 
 
@@ -337,13 +325,14 @@ a {
 }
 
 .bg-index {
-
   background-image: url("images/beach-horizon-crop.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
+  display: flex;
 }
 
 #form_name, #form_lastname, #form_email, #form_phone, #form_message {
