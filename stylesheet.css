@@ -124,14 +124,6 @@ nav a:hover {
     display: none;
   }
 }
-/*.coding-container {
-  padding-top: 50px;
-  text-align: center;
-}
-
-.coding-container row {
-  text-align: center;
-}*/
 
 .coding-container .col-sm {
   border: 2px solid white;
@@ -150,7 +142,6 @@ nav a:hover {
 .col-sm a img:hover {
   box-shadow: 2px 2px grey;
   width: 152px;
-  /*border: 4px solid #42f48f;*/
 }
 
 .col-sm {
@@ -201,26 +192,6 @@ nav a:hover {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/*OLD arrow link styling*/
-/*.bg-index a img {
-  position: absolute;
-  width: 50px;
-  bottom: 15px;
-  right: 50%;
-  text-decoration: none;
-  background-color: none;
-  display: none;
-}
-
-.bg-index a img:hover {
-  width: 52px;
-  bottom: 16px;
-}
-
-.bg-index a {
-  margin: 5px;
-  align-items: center;
-}*/
 
 /*Blog page styling*/
 .jumbotron {
@@ -363,7 +334,6 @@ a {
 }
 .btn {
   border-radius: 0;
-  /*Can't remember why this was here: margin-right: 50%;*/
 }
 
 footer {
