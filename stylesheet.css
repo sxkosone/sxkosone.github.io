@@ -1,6 +1,3 @@
-/*Import for flexbox to work*/
-@import "compass/css3";
-
 body {
   font-family: 'Roboto slab', sans-serif;
   box-sizing: border-box;
@@ -24,6 +21,18 @@ p {
   padding-bottom: 0;
 }
 
+.timestamp {
+  text-transform: uppercase;
+  font-family: 'Lato';
+  color: darkgrey;
+  size: 10px;
+}
+
+.img-text {
+  font-style: oblique;
+  font-size: 10px;
+  margin-top: 0px;
+}
 
 h1, h2 {
   font-family: "Merriweather", serif;
@@ -192,8 +201,8 @@ nav a:hover {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-
-.bg-index a img {
+/*OLD arrow link styling*/
+/*.bg-index a img {
   position: absolute;
   width: 50px;
   bottom: 15px;
@@ -211,7 +220,7 @@ nav a:hover {
 .bg-index a {
   margin: 5px;
   align-items: center;
-}
+}*/
 
 /*Blog page styling*/
 .jumbotron {
@@ -276,6 +285,15 @@ a {
 .img-blog {
   margin: 5px;
 }
+
+.img-container {
+  flex-direction: column;
+  display: flex;
+  max-width: 300px;
+  float: right;
+  padding: 10px;
+}
+
 
 .icon {
   width: 40px;
