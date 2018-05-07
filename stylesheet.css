@@ -334,6 +334,7 @@ a {
 }
 .btn {
   border-radius: 0;
+  margin: 2.5px;
 }
 
 footer {
