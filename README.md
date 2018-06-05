@@ -1,3 +1,4 @@
 # portfolio-website
-Portfolio and blogging site for myself 
-Has 5 main pages: homepage, Coding portfolio, About me, Blog and Contact page.
+Welcome to my website!
+
+This will serve as a portfolio and blogging site for myself. It has 5 main pages: homepage, Coding portfolio, About me, Blog and a Contact page. I'll be adding more blog posts and portfolio projects as I finish them.
