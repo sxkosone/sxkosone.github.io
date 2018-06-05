@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+  <!--Bootstrap CSS-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link type="text/css" rel="stylesheet" href="../stylesheet.css" />
@@ -42,75 +42,38 @@
   <div class="all">
     <div class="bg-contact">
       <div class="header-text-container">
-        <h1>Write to me and I'll write back.</h1>
+        <h1>Write a message :)</h1>
       </div>
     </div>
+    <div class="contact-container">
     <div class="container">
-      <h1>All questions are welcomed!</h1>
-      <p>Let me know if you’d like to build something great together. Or if you want to know more about how to get started with coding. I’ll be more than happy to answer any questions!</p>
-      <h3 style="text-align: center">Send a message</h3>
-      <form id="contact-form" method="post" action="contact.php" role="form" data-toggle="validator">
+      
+      <form action="https://formspree.io/kosonen.susanna@gmail.com" method="POST">
+        <div class="contact-info-group">
 
-        <div class="messages"></div>
+          <label><span>Name</span>
+            <input type="text" name="name">
+          </label>
 
-        <div class="controls">
+          <label><span>Email</span>
+            <input type="email" name="_replyto">
+          </label>
+        </div>
 
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_name">First name *</label>
-                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="First name is required.">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_lastname">Last name *</label>
-                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="" required="required" data-error="Last name is required.">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_email">Email *</label>
-                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_phone">Phone</label>
-                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="form-group">
-                <label for="form_message">Message *</label>
-                <textarea id="form_message" name="message" class="form-control" placeholder="" rows="4" required="required" data-error="Oops, you didn't write your message yet!" style="height: 200px"></textarea>
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <input type="submit" class="btn btn-success btn-send" value="Send message">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <p class="text-muted"><strong>*</strong> These fields are required. </br> Contact form template from Bootstrapious.com </p>
-            </div>
-          </div>
+          <label><span>Message</span>
+            <textarea name="message" id="" cols="30" rows="5"></textarea>
+          </label>
+        <div class="button-wrap">
+          <input type="submit" value="Send">
         </div>
       </form>
-      <div class="contact-container">
+
+      <div class="greeting">
             <img class="img-left-round" src="../images/Beachday.png"/>
-            <p>"Hi again! You can find more of my work history in <a href="www.linkedin.com/in/susanna-kosonen/">LinkedIn</a> or check out my source code on <a href="">GitHub</a>. Hope to hear from you soon!"</br> Susanna Kosonen
-            </p>
+            <p>Let me know if you’d like to build something great together. Or if you want to know more about how to get started with coding. I’ll be more than happy to answer any questions!</p>
+            <p>You can find more of my work history in <a href="www.linkedin.com/in/susanna-kosonen/">LinkedIn</a> or check out my source code on <a href="https://github.com/sxkosone/">GitHub</a>. Hope to hear from you soon!</p>
             </div>
+          </div>
     </div>
 
       <footer>
@@ -119,11 +82,7 @@
       <p>© Susanna Kosonen | 2018</p>
       </footer>
 </div>
-    <!--old jQuery and bootstrap From Bootstrapious. Newer versions lower
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
-    <script src="validator.js"></script>
-    <script src="contact.js"></script>
+    
     <!--Bootstrap and flexbox-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
