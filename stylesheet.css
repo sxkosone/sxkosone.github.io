@@ -64,9 +64,15 @@ nav a:hover {
   color: #42f48f;
 }
 
+/*Layout styling*/
 .container {
   padding: 50px;
   max-width: 880px;
+  overflow: hidden;
+}
+
+.blog-container {
+  padding: 50px;
   overflow: hidden;
 }
 
@@ -78,6 +84,7 @@ nav a:hover {
   overflow: auto;
 }
 
+/*NAVIGATION*/
 .navbar {
   position: fixed;
   top: 0;
@@ -99,7 +106,7 @@ nav a:hover {
     background-image: url(https://cdn0.iconfinder.com/data/icons/cosmo-food-2/40/burger_2-512.png);
 }
 
-/*Make elements responsive*/
+/*Make elements RESPONSIVE*/
 @media all and (max-width: 800px) {
 
 }
@@ -216,20 +223,6 @@ nav a:hover {
 a {
   text-decoration: none;
   color: black;
-}
-
-#content {
-  display: block;
-  float: left;
-  margin-bottom: 20px;
-}
-
-#right {
-  float: right;
-  padding: 20px;
-  width: 250px;
-  background-color: #efefef;
-  text-align: center;
 }
 
 
