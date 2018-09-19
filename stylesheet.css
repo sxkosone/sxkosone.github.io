@@ -73,7 +73,7 @@ nav a:hover {
 
 .blog-container {
   padding: 50px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .contact-container {
