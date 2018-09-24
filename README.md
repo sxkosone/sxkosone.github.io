@@ -1,5 +1,5 @@
-# portfolio-website
+# SusannaKosonen.com
 Welcome to my website!
-Live at https://sxkosone.github.io/
+www.susannakosonen.com
 
-This will serve as a portfolio and blogging site for myself. It has 5 main pages: homepage, Coding portfolio, About me, Blog and a Contact page. I'll be adding more blog posts and portfolio projects as I finish them.
+This is a static portfolio and blogging site for myself.
