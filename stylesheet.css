@@ -21,12 +21,6 @@ p {
   padding-bottom: 0;
 }
 
-.timestamp {
-  text-transform: uppercase;
-  font-family: 'Lato';
-  color: darkgrey;
-  size: 10px;
-}
 
 .img-text {
   font-style: oblique;
@@ -35,7 +29,7 @@ p {
 }
 
 h1, h2 {
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
 }
 
 /*Text highlights*/
@@ -234,8 +228,9 @@ a {
 
 .img-medium {
   width: 300px;
+  max-width: 100%;
   float: right;
-  padding: 20px 0px 20px 20px;
+  padding: 5px;
 }
 
 .img-thumb {
