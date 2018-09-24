@@ -378,18 +378,10 @@ form label span {
   padding-right: 10px;
 }
 
-/*COMMENTED OUT FOR NOW, finalizing form styling
- #form_email, #form_message {
-  border: 2px solid grey;
-  border-radius: 0px;
-}
-#form_message:focus {
-  border-color: #42f48f;
-  outline: none;
-} */
 .btn {
   border-radius: 0;
   margin: 5px;
+  border: 2px solid white;
 }
 /*FOOTER*/
 footer {
